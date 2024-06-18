@@ -1,0 +1,21 @@
+{
+	"name": "mamun-just/workopia-php",
+	"description": "Job listing website",
+	"authors": [
+        {
+            "name": "Md. Mamun-Or-Rashid",
+            "email": "mamun.techbuzz@gmail.com",
+            "homepage": "https://www.mamun.com",
+            "role": "Developer"
+        }
+	],
+	"autoload": {
+        "psr-4": {
+            "Framework\\": "Framework/",
+            "App\\": "App/"
+        }
+    },
+	"require": {
+		"phpmailer/phpmailer": "^6.9"
+	}
+}
